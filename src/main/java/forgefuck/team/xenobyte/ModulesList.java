@@ -8,6 +8,7 @@ import forgefuck.team.xenobyte.modules.AdvertHack;
 import forgefuck.team.xenobyte.modules.AntiKnockBack;
 import forgefuck.team.xenobyte.modules.AutoDrop;
 import forgefuck.team.xenobyte.modules.AutoSprint;
+import forgefuck.team.xenobyte.modules.AutoReconnect;
 import forgefuck.team.xenobyte.modules.BiblioAtlasGive;
 import forgefuck.team.xenobyte.modules.BiblioFrameGive;
 import forgefuck.team.xenobyte.modules.BiblioSignEdit;
@@ -97,7 +98,7 @@ import forgefuck.team.xenobyte.modules.XenoGui;
 import forgefuck.team.xenobyte.modules.ZtonesMeta;
 
 public class ModulesList extends ArrayList<CheatModule>  {
-    
+
     {
         add(new AdvancedTooltip());
         add(new BuildMarkerGive());
@@ -191,6 +192,7 @@ public class ModulesList extends ArrayList<CheatModule>  {
         add(new Step());
         add(new XRay());
         add(new Esp());
+        add(new AutoReconnect());
     }
-    
+
 }
